@@ -1,23 +1,47 @@
 {
   "name": "was-ga4-mcp",
-  "version": "1.0.0",
-  "description": "Shareable GA4 MCP server — query Google Analytics 4 Data + Admin APIs from any MCP-capable client (Claude Desktop, Cursor, etc.) with your own Google OAuth credentials. 31 tools. Built by WAS (Web Analytics Solution).",
+  "version": "1.0.1",
+  "description": "Shareable GA4 MCP server \u2014 query Google Analytics 4 Data + Admin APIs from any MCP-capable client (Claude Desktop, Cursor, etc.) with your own Google OAuth credentials. 31 tools. Built by WAS (Web Analytics Solution).",
   "type": "module",
   "bin": {
     "was-ga4-mcp": "./cli.js"
   },
-  "files": ["cli.js", "server.js", "auth.js", "google-client.js", "config-paths.js", "tools/", "README.md", "LICENSE"],
+  "files": [
+    "cli.js",
+    "server.js",
+    "auth.js",
+    "google-client.js",
+    "config-paths.js",
+    "tools/",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "start": "node cli.js",
     "auth": "node cli.js auth"
   },
-  "keywords": ["mcp", "model-context-protocol", "ga4", "google-analytics", "analytics", "claude", "was"],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ga4",
+    "google-analytics",
+    "analytics",
+    "claude",
+    "was"
+  ],
   "author": "Abdullah Al Masum (Web Analytics Solution)",
   "license": "MIT",
   "homepage": "https://github.com/mnsmasum62786/was-ga4-mcp",
-  "repository": { "type": "git", "url": "https://github.com/mnsmasum62786/was-ga4-mcp.git" },
-  "bugs": { "url": "https://github.com/mnsmasum62786/was-ga4-mcp/issues" },
-  "engines": { "node": ">=18.0.0" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mnsmasum62786/was-ga4-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mnsmasum62786/was-ga4-mcp/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0"
   }
