@@ -1,6 +1,6 @@
 {
   "name": "was-ga4-mcp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Shareable GA4 MCP server \u2014 query Google Analytics 4 Data + Admin APIs from any MCP-capable client (Claude Desktop, Cursor, etc.) with your own Google OAuth credentials. 31 tools. Built by WAS (Web Analytics Solution).",
   "type": "module",
   "bin": {
